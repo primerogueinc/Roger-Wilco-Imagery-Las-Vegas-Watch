@@ -1,0 +1,224 @@
+[
+ {
+  "id": "RWI-W-VEGAS-2026-11-08",
+  "date": "2026-11-08",
+  "flight_day": "2026-11-07",
+  "flights": {
+   "other": 34,
+   "us-military": 25,
+   "janet": 2
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 11,
+   "on_sites": 0
+  },
+  "notable": []
+ },
+ {
+  "id": "RWI-W-VEGAS-2026-11-07",
+  "date": "2026-11-07",
+  "flight_day": "2026-11-06",
+  "flights": {
+   "us-military": 46,
+   "other": 36,
+   "janet": 8,
+   "foreign-military": 1
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 9,
+   "on_sites": 0
+  },
+  "notable": [
+   "1 foreign military aircraft in the area (Australia)."
+  ]
+ },
+ {
+  "id": "RWI-W-VEGAS-2026-11-06",
+  "date": "2026-11-06",
+  "flight_day": "2026-11-05",
+  "flights": {
+   "us-military": 42,
+   "other": 38,
+   "janet": 7,
+   "foreign-military": 3,
+   "rcaf": 1
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 6,
+   "on_sites": 0
+  },
+  "notable": [
+   "3 foreign military aircraft in the area (Australia, France, other)."
+  ]
+ },
+ {
+  "id": "RWI-W-VEGAS-2026-11-05",
+  "date": "2026-11-05",
+  "flight_day": "2026-11-04",
+  "flights": {
+   "us-military": 51,
+   "janet": 8,
+   "foreign-military": 2,
+   "other": 37
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 6,
+   "on_sites": 0
+  },
+  "notable": [
+   "2 foreign military aircraft in the area (Australia, other)."
+  ]
+ },
+ {
+  "id": "RWI-W-VEGAS-2026-11-04",
+  "date": "2026-11-04",
+  "flight_day": "2026-11-03",
+  "flights": {
+   "us-military": 49,
+   "other": 29,
+   "janet": 7,
+   "foreign-military": 2
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 5,
+   "on_sites": 0
+  },
+  "notable": [
+   "2 foreign military aircraft in the area (United Kingdom, other)."
+  ]
+ },
+ {
+  "id": "RWI-W-VEGAS-2026-11-03",
+  "date": "2026-11-03",
+  "flight_day": "2026-11-02",
+  "flights": {
+   "us-military": 33,
+   "other": 38,
+   "janet": 6
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 8,
+   "on_sites": 0
+  },
+  "notable": []
+ },
+ {
+  "id": "RWI-W-VEGAS-2026-11-01",
+  "date": "2026-11-01",
+  "flight_day": "2026-10-31",
+  "flights": {
+   "other": 25,
+   "us-military": 24,
+   "state-vip": 1,
+   "janet": 1
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 0,
+   "on_sites": 0
+  },
+  "notable": []
+ },
+ {
+  "id": "RWI-W-VEGAS-2026-10-31",
+  "date": "2026-10-31",
+  "flight_day": "2026-10-30",
+  "flights": {
+   "us-military": 39,
+   "janet": 6,
+   "other": 26,
+   "foreign-military": 2
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 0,
+   "on_sites": 0
+  },
+  "notable": [
+   "2 foreign military aircraft in the area (Australia, Canada)."
+  ]
+ },
+ {
+  "id": "RWI-W-VEGAS-2026-10-30",
+  "date": "2026-10-30",
+  "flight_day": "2026-10-29",
+  "flights": {
+   "us-military": 52,
+   "other": 39,
+   "janet": 5,
+   "foreign-military": 2
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 6,
+   "on_sites": 0
+  },
+  "notable": [
+   "2 foreign military aircraft in the area (Australia, Canada)."
+  ]
+ },
+ {
+  "id": "RWI-W-VEGAS-2026-10-29",
+  "date": "2026-10-29",
+  "flight_day": "2026-10-28",
+  "flights": {
+   "other": 41,
+   "us-military": 55,
+   "janet": 5,
+   "foreign-military": 3
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 7,
+   "on_sites": 0
+  },
+  "notable": [
+   "3 foreign military aircraft in the area (Australia, Spain, other)."
+  ]
+ },
+ {
+  "id": "RWI-W-VEGAS-2026-10-28",
+  "date": "2026-10-28",
+  "flight_day": "2026-10-27",
+  "flights": {
+   "us-military": 49,
+   "janet": 6,
+   "other": 33,
+   "foreign-military": 1,
+   "state-vip": 1
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 15,
+   "on_sites": 0
+  },
+  "notable": [
+   "1 foreign military aircraft in the area (other)."
+  ]
+ },
+ {
+  "id": "RWI-W-VEGAS-2026-10-27",
+  "date": "2026-10-27",
+  "flight_day": "2026-10-26",
+  "flights": {
+   "us-military": 41,
+   "other": 33,
+   "foreign-military": 3,
+   "janet": 6
+  },
+  "heat": {
+   "source": "FIRMS area API (agent Gazda)",
+   "total": 25,
+   "on_sites": 0
+  },
+  "notable": [
+   "3 foreign military aircraft in the area (Australia, Germany, Spain)."
+  ]
+ }
+]

@@ -1,0 +1,65 @@
+{
+ "id": "RWI-W-VEGAS-2026-10-28",
+ "watch": "vegas",
+ "title": "Vegas Watch",
+ "date": "2026-10-28",
+ "flight_day": "2026-10-27",
+ "plates": [
+  {
+   "file": "flights.png",
+   "label": "Flights 2026-10-27"
+  }
+ ],
+ "notable": [
+  "1 foreign military aircraft in the area (other)."
+ ],
+ "flights": {
+  "us-military": 49,
+  "janet": 6,
+  "other": 33,
+  "foreign-military": 1,
+  "state-vip": 1
+ },
+ "heat": {
+  "source": "FIRMS area API (agent Gazda)",
+  "total": 15,
+  "on_sites": 0
+ },
+ "imagery": {
+  "nellis-afb": {
+   "pass": "2026-10-26T18:34:13.355000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "creech-afb": {
+   "pass": "2026-10-26T18:34:13.355000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "groom-lake": {
+   "pass": "2026-10-26T18:34:02.272000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "tonopah-test-range": {
+   "pass": "2026-10-24T18:43:57.170000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "nnss-yucca-flat": {
+   "pass": "2026-10-26T18:34:02.272000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "las-vegas-janet": {
+   "pass": "2026-10-26T18:34:28.062000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "hoover-dam-lake-mead": {
+   "pass": "2026-10-26T18:34:28.062000+00:00",
+   "clear": 1.0,
+   "new": false
+  }
+ }
+}

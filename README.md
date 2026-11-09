@@ -5,7 +5,7 @@
 Open baseline satellite imagery for the **Vegas Watch** of [Roger Wilco Imagery](https://rogerwilcoimagery.com) (RWI), a project of
 Prime Rogue Inc. RWI watches the air bases, test ranges and national-security sites of Las Vegas and the Nevada ranges from open
 sources. This repository is the public record of the Watch: the clear-sky reference images that RWI compares new passes against,
-and (once published) its daily issues.
+and its daily issues.
 
 **Imagery:** 45 clear Sentinel-2 quicklooks: every one of the Watch's 12 places has its own, July–October 2026.
 
@@ -39,9 +39,15 @@ The places here are bases, ranges and airfields, so each picture shows the facil
 
 ## Daily Watch issues
 
-The Vegas Watch has run daily since 28 Oct 2026 (RWI-W-VEGAS-<date>). Its issues log military, government and Janet flights near
-the sites for the day before (UTC), from community ADS-B; heat detections (NASA FIRMS); and the newest clear Sentinel-2 pass per
-place. They will be added under `issues/<date>/` when RWI publishes them here.
+`issues/<date>/` holds each daily Vegas Watch issue, RWI-W-VEGAS-<date>, from 27 Oct 2026 (12 issues to 8 Nov; none on 2 Nov):
+
+- `WATCH.md`: the issue. It covers military, government and Janet flights near the sites for the day before (UTC), from
+  community ADS-B; heat detections (NASA FIRMS); and the newest clear Sentinel-2 pass per place.
+- `summary.json`: the same in machine-readable form.
+- `flights.png` and `S2_<place>.jpg`: the plates.
+- `issues/index.json`: every issue with its flight counts and notable lines.
+
+Civil aircraft appear as counts only. Issues are LLM-generated and automated.
 
 Flights come from aircraft that broadcast ADS-B and that volunteer receivers picked up. An aircraft that switches its transponder off
 or flies outside coverage is not here, so "none broadcasting" does not mean "none flew". The Nevada Test and Training Range includes

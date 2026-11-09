@@ -1,0 +1,87 @@
+{
+ "id": "RWI-W-VEGAS-2026-11-08",
+ "watch": "vegas",
+ "title": "Vegas Watch",
+ "date": "2026-11-08",
+ "flight_day": "2026-11-07",
+ "plates": [
+  {
+   "file": "flights.png",
+   "label": "Flights 2026-11-07"
+  },
+  {
+   "file": "S2_creech-afb.jpg",
+   "site": "creech-afb",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-08T18:44:08.971000+00:00"
+  },
+  {
+   "file": "S2_groom-lake.jpg",
+   "site": "groom-lake",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-08T18:43:58.558000+00:00"
+  },
+  {
+   "file": "S2_tonopah-test-range.jpg",
+   "site": "tonopah-test-range",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-08T18:43:58.558000+00:00"
+  },
+  {
+   "file": "S2_nnss-yucca-flat.jpg",
+   "site": "nnss-yucca-flat",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-08T18:43:58.558000+00:00"
+  }
+ ],
+ "notable": [],
+ "flights": {
+  "other": 34,
+  "us-military": 25,
+  "janet": 2
+ },
+ "heat": {
+  "source": "FIRMS area API (agent Gazda)",
+  "total": 11,
+  "on_sites": 0
+ },
+ "imagery": {
+  "nellis-afb": {
+   "pass": "2026-11-05T18:34:13.623000+00:00",
+   "clear": 0.94,
+   "new": false
+  },
+  "creech-afb": {
+   "pass": "2026-11-08T18:44:08.971000+00:00",
+   "clear": 1.0,
+   "new": true,
+   "plate": "S2_creech-afb.jpg"
+  },
+  "groom-lake": {
+   "pass": "2026-11-08T18:43:58.558000+00:00",
+   "clear": 1.0,
+   "new": true,
+   "plate": "S2_groom-lake.jpg"
+  },
+  "tonopah-test-range": {
+   "pass": "2026-11-08T18:43:58.558000+00:00",
+   "clear": 1.0,
+   "new": true,
+   "plate": "S2_tonopah-test-range.jpg"
+  },
+  "nnss-yucca-flat": {
+   "pass": "2026-11-08T18:43:58.558000+00:00",
+   "clear": 1.0,
+   "new": true,
+   "plate": "S2_nnss-yucca-flat.jpg"
+  },
+  "las-vegas-janet": {
+   "pass": null
+  },
+  "hoover-dam-lake-mead": {
+   "pass": "2026-11-05T18:34:28.332000+00:00",
+   "clear": 1.0,
+   "new": false
+  }
+ }
+}

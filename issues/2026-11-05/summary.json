@@ -1,0 +1,106 @@
+{
+ "id": "RWI-W-VEGAS-2026-11-05",
+ "watch": "vegas",
+ "title": "Vegas Watch",
+ "date": "2026-11-05",
+ "flight_day": "2026-11-04",
+ "plates": [
+  {
+   "file": "flights.png",
+   "label": "Flights 2026-11-04"
+  },
+  {
+   "file": "S2_nellis-afb.jpg",
+   "site": "nellis-afb",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-05T18:34:13.623000+00:00"
+  },
+  {
+   "file": "S2_creech-afb.jpg",
+   "site": "creech-afb",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-05T18:44:14.248000+00:00"
+  },
+  {
+   "file": "S2_groom-lake.jpg",
+   "site": "groom-lake",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-05T18:44:03.895000+00:00"
+  },
+  {
+   "file": "S2_tonopah-test-range.jpg",
+   "site": "tonopah-test-range",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-05T18:44:03.895000+00:00"
+  },
+  {
+   "file": "S2_nnss-yucca-flat.jpg",
+   "site": "nnss-yucca-flat",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-05T18:44:03.895000+00:00"
+  },
+  {
+   "file": "S2_hoover-dam-lake-mead.jpg",
+   "site": "hoover-dam-lake-mead",
+   "sensor": "Sentinel-2",
+   "time": "2026-11-05T18:34:28.332000+00:00"
+  }
+ ],
+ "notable": [
+  "2 foreign military aircraft in the area (Australia, other)."
+ ],
+ "flights": {
+  "us-military": 51,
+  "janet": 8,
+  "foreign-military": 2,
+  "other": 37
+ },
+ "heat": {
+  "source": "FIRMS area API (agent Gazda)",
+  "total": 6,
+  "on_sites": 0
+ },
+ "imagery": {
+  "nellis-afb": {
+   "pass": "2026-11-05T18:34:13.623000+00:00",
+   "clear": 0.94,
+   "new": true,
+   "plate": "S2_nellis-afb.jpg"
+  },
+  "creech-afb": {
+   "pass": "2026-11-05T18:44:14.248000+00:00",
+   "clear": 0.82,
+   "new": true,
+   "plate": "S2_creech-afb.jpg"
+  },
+  "groom-lake": {
+   "pass": "2026-11-05T18:44:03.895000+00:00",
+   "clear": 0.99,
+   "new": true,
+   "plate": "S2_groom-lake.jpg"
+  },
+  "tonopah-test-range": {
+   "pass": "2026-11-05T18:44:03.895000+00:00",
+   "clear": 1.0,
+   "new": true,
+   "plate": "S2_tonopah-test-range.jpg"
+  },
+  "nnss-yucca-flat": {
+   "pass": "2026-11-05T18:44:03.895000+00:00",
+   "clear": 1.0,
+   "new": true,
+   "plate": "S2_nnss-yucca-flat.jpg"
+  },
+  "las-vegas-janet": {
+   "pass": "2026-10-26T18:34:28.062000+00:00",
+   "clear": 0.91,
+   "new": false
+  },
+  "hoover-dam-lake-mead": {
+   "pass": "2026-11-05T18:34:28.332000+00:00",
+   "clear": 1.0,
+   "new": true,
+   "plate": "S2_hoover-dam-lake-mead.jpg"
+  }
+ }
+}

@@ -1,6 +1,6 @@
 # Imagery licence
 
-The MIT licence in `LICENSE` covers code only. It does **not** cover the images, the Watch issues (when published) or the index files in this repository.
+The MIT licence in `LICENSE` covers code only. It does **not** cover the images, the Watch issues or the index files in this repository.
 
 ## Underlying data: Copernicus Sentinel-2
 
@@ -19,7 +19,7 @@ so the boxes are RWI's own. Map data used for the check © OpenStreetMap contrib
 
 ## RWI's processing: Roger Wilco Imagery Terms of Use
 
-The processed quicklooks, the Watch issues (when published) and plates, their selection and the indexes are RWI Materials under the
+The processed quicklooks, the Watch issues and plates, their selection and the indexes are RWI Materials under the
 [Roger Wilco Imagery Terms of Use](https://rogerwilcoimagery.com/terms.html). In short:
 
 - **Free for journalists and students, for non-commercial use**, and for reporting, research, criticism, review and education with
