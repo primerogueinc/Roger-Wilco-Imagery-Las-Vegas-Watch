@@ -1,0 +1,988 @@
+{
+ "about": "Roger Wilco Imagery — Vegas Watch baseline imagery. Clear Sentinel-2 quicklooks (JPEG + georeference sidecar) per place, from RWI's baseline backfill. Images are in baselines/<site>/. Same record shape as the RWI pipeline's data/baseline-imagery/index.json.",
+ "watch": {
+  "id": "vegas",
+  "code": "VEGAS",
+  "title": "Vegas Watch"
+ },
+ "synced_utc": "2026-11-09T09:43:53Z",
+ "source_generated": "2026-11-09T09:40:37+00:00",
+ "attribution": "Contains modified Copernicus Sentinel data 2026, processed by Roger Wilco Imagery",
+ "sites": [
+  {
+   "id": "creech-afb",
+   "name": "Creech AFB (MQ-9 Reaper operations)",
+   "type": "base",
+   "bbox": [
+    -115.715,
+    36.565,
+    -115.635,
+    36.61
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2B_11SPA_20261026_0_L2A",
+     "tiles": [
+      "S2B_11SPA_20261026_0_L2A"
+     ],
+     "datetime": "2026-10-26",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261026_S2B_11SPA_20261026_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2C_11SPA_20260924_0_L2A",
+     "tiles": [
+      "S2C_11SPA_20260924_0_L2A"
+     ],
+     "datetime": "2026-09-24T18:44:09.015000+00:00",
+     "clear_frac": 0.991,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 6.787051,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260924_S2C_11SPA_20260924_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_11SPA_20260817_0_L2A",
+     "tiles": [
+      "S2B_11SPA_20260817_0_L2A"
+     ],
+     "datetime": "2026-08-17T18:34:09.869000+00:00",
+     "clear_frac": 0.889,
+     "clear_frac_scl": 0.901,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 14.303553,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260817_S2B_11SPA_20260817_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_11SPA_20260716_0_L2A",
+     "tiles": [
+      "S2C_11SPA_20260716_0_L2A"
+     ],
+     "datetime": "2026-07-16T18:44:09.575000+00:00",
+     "clear_frac": 0.992,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 17.868206,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260716_S2C_11SPA_20260716_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:39:13+00:00",
+   "candidates": 100,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-07-16"
+   },
+   "errors": []
+  },
+  {
+   "id": "groom-lake",
+   "name": "Groom Lake (Homey Airport, 'Area 51')",
+   "type": "base",
+   "bbox": [
+    -115.87,
+    37.2,
+    -115.755,
+    37.3
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_11SPB_20260924_0_L2A",
+     "tiles": [
+      "S2C_11SPB_20260924_0_L2A"
+     ],
+     "datetime": "2026-09-24T18:43:58.700000+00:00",
+     "clear_frac": 0.995,
+     "clear_frac_scl": 0.998,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.251191,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260924_S2C_11SPB_20260924_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_11SPB_20260822_0_L2A",
+     "tiles": [
+      "S2C_11SPB_20260822_0_L2A"
+     ],
+     "datetime": "2026-08-22T18:33:58.940000+00:00",
+     "clear_frac": 0.935,
+     "clear_frac_scl": 0.938,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 18.597895,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260822_S2C_11SPB_20260822_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_11SPB_20260718_0_L2A",
+     "tiles": [
+      "S2B_11SPB_20260718_0_L2A"
+     ],
+     "datetime": "2026-07-18T18:34:02.042000+00:00",
+     "clear_frac": 0.969,
+     "clear_frac_scl": 0.972,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 2.061121,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260718_S2B_11SPB_20260718_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:39:21+00:00",
+   "candidates": 100,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 0.972,
+    "date": "2026-07-18"
+   },
+   "errors": []
+  },
+  {
+   "id": "hawthorne-army-depot",
+   "name": "Hawthorne Army Depot",
+   "type": "base",
+   "bbox": [
+    -118.72,
+    38.48,
+    -118.55,
+    38.6
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_11SLC_20261017_0_L2A",
+     "tiles": [
+      "S2C_11SLC_20261017_0_L2A"
+     ],
+     "datetime": "2026-10-17",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261017_S2C_11SLC_20261017_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2B_11SLC_20260912_0_L2A",
+     "tiles": [
+      "S2B_11SLC_20260912_0_L2A"
+     ],
+     "datetime": "2026-09-12T18:53:44.683000+00:00",
+     "clear_frac": 0.993,
+     "clear_frac_scl": 0.994,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 3.517158,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260912_S2B_11SLC_20260912_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_11SLC_20260808_0_L2A",
+     "tiles": [
+      "S2C_11SLC_20260808_0_L2A"
+     ],
+     "datetime": "2026-08-08T18:53:47.121000+00:00",
+     "clear_frac": 0.999,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.952784,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260808_S2C_11SLC_20260808_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:40:16+00:00",
+   "candidates": 60,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-08-08"
+   },
+   "errors": []
+  },
+  {
+   "id": "hoover-dam-lake-mead",
+   "name": "Hoover Dam and Lake Mead intakes",
+   "type": "infrastructure",
+   "bbox": [
+    -114.8,
+    36.0,
+    -114.72,
+    36.06
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2B_11SPV_20261026_0_L2A",
+     "tiles": [
+      "S2B_11SPV_20261026_0_L2A"
+     ],
+     "datetime": "2026-10-26",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261026_S2B_11SPV_20261026_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2B_11SPV_20260916_0_L2A",
+     "tiles": [
+      "S2B_11SPV_20260916_0_L2A"
+     ],
+     "datetime": "2026-09-16T18:34:25.916000+00:00",
+     "clear_frac": 0.982,
+     "clear_frac_scl": 0.983,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.131088,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260916_S2B_11SPV_20260916_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_11SPV_20260817_0_L2A",
+     "tiles": [
+      "S2B_11SPV_20260817_0_L2A"
+     ],
+     "datetime": "2026-08-17T18:34:24.582000+00:00",
+     "clear_frac": 0.997,
+     "clear_frac_scl": 0.998,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 5.440221,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260817_S2B_11SPV_20260817_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2A_11SPV_20260715_0_L2A",
+     "tiles": [
+      "S2A_11SPV_20260715_0_L2A"
+     ],
+     "datetime": "2026-07-15T18:34:44.239000+00:00",
+     "clear_frac": 0.998,
+     "clear_frac_scl": 0.999,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 4.741069,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260715_S2A_11SPV_20260715_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:40:07+00:00",
+   "candidates": 100,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 0.999,
+    "date": "2026-07-15"
+   },
+   "errors": []
+  },
+  {
+   "id": "las-vegas-janet",
+   "name": "Harry Reid International — Janet terminal",
+   "type": "base",
+   "bbox": [
+    -115.19,
+    36.06,
+    -115.13,
+    36.1
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2B_11SPV_20261026_0_L2A",
+     "tiles": [
+      "S2B_11SPV_20261026_0_L2A"
+     ],
+     "datetime": "2026-10-26",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261026_S2B_11SPV_20261026_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2A_11SPV_20260913_0_L2A",
+     "tiles": [
+      "S2A_11SPV_20260913_0_L2A"
+     ],
+     "datetime": "2026-09-13T18:34:41.299000+00:00",
+     "clear_frac": 0.863,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 2.075537,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260913_S2A_11SPV_20260913_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_11SPV_20260807_0_L2A",
+     "tiles": [
+      "S2B_11SPV_20260807_0_L2A"
+     ],
+     "datetime": "2026-08-07T18:34:26.926000+00:00",
+     "clear_frac": 0.87,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 3.362782,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260807_S2B_11SPV_20260807_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_11SPV_20260703_0_L2A",
+     "tiles": [
+      "S2C_11SPV_20260703_0_L2A"
+     ],
+     "datetime": "2026-07-03T18:34:26.493000+00:00",
+     "clear_frac": 0.871,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.021447,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260703_S2C_11SPV_20260703_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:39:54+00:00",
+   "candidates": 100,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-07-03"
+   },
+   "errors": []
+  },
+  {
+   "id": "nas-fallon",
+   "name": "NAS Fallon (Naval Aviation Warfighting Development Center, TOPGUN)",
+   "type": "base",
+   "bbox": [
+    -118.745,
+    39.385,
+    -118.665,
+    39.45
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_11SLD_20261027_0_L2A",
+     "tiles": [
+      "S2C_11SLD_20261027_0_L2A"
+     ],
+     "datetime": "2026-10-27",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261027_S2C_11SLD_20261027_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2C_11SLD_20261017_0_L2A",
+     "tiles": [
+      "S2C_11SLD_20261017_0_L2A"
+     ],
+     "datetime": "2026-10-17",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261017_S2C_11SLD_20261017_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2B_11SLD_20260912_0_L2A",
+     "tiles": [
+      "S2B_11SLD_20260912_0_L2A"
+     ],
+     "datetime": "2026-09-12T18:53:30.444000+00:00",
+     "clear_frac": 0.979,
+     "clear_frac_scl": 0.989,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 29.259968,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260912_S2B_11SLD_20260912_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2A_11SLD_20260810_1_L2A",
+     "tiles": [
+      "S2A_11SLD_20260810_1_L2A"
+     ],
+     "datetime": "2026-08-10T18:53:49.508000+00:00",
+     "clear_frac": 0.991,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 19.345202,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260810_S2A_11SLD_20260810_1_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:40:11+00:00",
+   "candidates": 52,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-08-10"
+   },
+   "errors": []
+  },
+  {
+   "id": "nellis-afb",
+   "name": "Nellis AFB (Red Flag, USAF Warfare Center)",
+   "type": "base",
+   "bbox": [
+    -115.085,
+    36.215,
+    -114.995,
+    36.265
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2B_11SPA_20261026_0_L2A",
+     "tiles": [
+      "S2B_11SPA_20261026_0_L2A"
+     ],
+     "datetime": "2026-10-26",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261026_S2B_11SPA_20261026_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2B_11SPA_20260916_0_L2A",
+     "tiles": [
+      "S2B_11SPA_20260916_0_L2A"
+     ],
+     "datetime": "2026-09-16T18:34:11.213000+00:00",
+     "clear_frac": 0.934,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 2.839536,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260916_S2B_11SPA_20260916_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_11SPA_20260817_0_L2A",
+     "tiles": [
+      "S2B_11SPA_20260817_0_L2A"
+     ],
+     "datetime": "2026-08-17T18:34:09.869000+00:00",
+     "clear_frac": 0.938,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 14.303553,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260817_S2B_11SPA_20260817_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2A_11SPA_20260715_0_L2A",
+     "tiles": [
+      "S2A_11SPA_20260715_0_L2A"
+     ],
+     "datetime": "2026-07-15T18:34:29.531000+00:00",
+     "clear_frac": 0.95,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 11.616902,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260715_S2A_11SPA_20260715_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:39:07+00:00",
+   "candidates": 61,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-07-15"
+   },
+   "errors": []
+  },
+  {
+   "id": "nnss-mercury",
+   "name": "Nevada National Security Site — Mercury",
+   "type": "base",
+   "bbox": [
+    -116.03,
+    36.64,
+    -115.975,
+    36.68
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2B_11SNA_20261026_0_L2A",
+     "tiles": [
+      "S2B_11SNA_20261026_0_L2A"
+     ],
+     "datetime": "2026-10-26",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261026_S2B_11SNA_20261026_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2C_11SNA_20260924_0_L2A",
+     "tiles": [
+      "S2C_11SNA_20260924_0_L2A"
+     ],
+     "datetime": "2026-09-24T18:44:13.131000+00:00",
+     "clear_frac": 0.997,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 1.217236,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260924_S2C_11SNA_20260924_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_11SNA_20260825_0_L2A",
+     "tiles": [
+      "S2C_11SNA_20260825_0_L2A"
+     ],
+     "datetime": "2026-08-25T18:44:09.947000+00:00",
+     "clear_frac": 0.997,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 2.897256,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260825_S2C_11SNA_20260825_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_11SNA_20260723_0_L2A",
+     "tiles": [
+      "S2C_11SNA_20260723_0_L2A"
+     ],
+     "datetime": "2026-07-23T18:34:17.385000+00:00",
+     "clear_frac": 0.996,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 2.336576,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260723_S2C_11SNA_20260723_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:39:40+00:00",
+   "candidates": 100,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 1.0,
+    "date": "2026-07-23"
+   },
+   "errors": []
+  },
+  {
+   "id": "nnss-yucca-flat",
+   "name": "Nevada National Security Site — Yucca Flat",
+   "type": "base",
+   "bbox": [
+    -116.15,
+    36.95,
+    -115.95,
+    37.15
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2B_11SNB_20261026_0_L2A",
+     "tiles": [
+      "S2B_11SNB_20261026_0_L2A"
+     ],
+     "datetime": "2026-10-26",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261026_S2B_11SNB_20261026_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2C_11SNB_20260924_0_L2A",
+     "tiles": [
+      "S2C_11SNB_20260924_0_L2A",
+      "S2C_11SNA_20260924_0_L2A"
+     ],
+     "datetime": "2026-09-24T18:44:13.131000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 1.058341,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260924_S2C_11SNB_20260924_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_11SNB_20260825_0_L2A",
+     "tiles": [
+      "S2C_11SNB_20260825_0_L2A",
+      "S2C_11SNA_20260825_0_L2A"
+     ],
+     "datetime": "2026-08-25T18:44:09.947000+00:00",
+     "clear_frac": 0.971,
+     "clear_frac_scl": 0.972,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 7.314525,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260825_S2C_11SNB_20260825_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2C_11SNB_20260723_0_L2A",
+     "tiles": [
+      "S2C_11SNB_20260723_0_L2A",
+      "S2C_11SNA_20260723_0_L2A"
+     ],
+     "datetime": "2026-07-23T18:34:17.385000+00:00",
+     "clear_frac": 0.99,
+     "clear_frac_scl": 0.99,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 3.147065,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260723_S2C_11SNB_20260723_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:39:37+00:00",
+   "candidates": 100,
+   "tried": 1,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 0.99,
+    "date": "2026-07-23"
+   },
+   "errors": []
+  },
+  {
+   "id": "reno-ang",
+   "name": "Reno Air National Guard Base (152nd Airlift Wing)",
+   "type": "base",
+   "bbox": [
+    -119.8,
+    39.48,
+    -119.745,
+    39.53
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_10SGJ_20261027_0_L2A",
+     "tiles": [
+      "S2C_10SGJ_20261027_0_L2A"
+     ],
+     "datetime": "2026-10-27",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261027_S2C_10SGJ_20261027_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2C_10SGJ_20261017_0_L2A",
+     "tiles": [
+      "S2C_10SGJ_20261017_0_L2A"
+     ],
+     "datetime": "2026-10-17",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261017_S2C_10SGJ_20261017_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2B_10SGJ_20260915_0_L2A",
+     "tiles": [
+      "S2B_10SGJ_20260915_0_L2A"
+     ],
+     "datetime": "2026-09-15T19:03:31.468000+00:00",
+     "clear_frac": 0.879,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 6.258225,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260915_S2B_10SGJ_20260915_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_10SGJ_20260806_0_L2A",
+     "tiles": [
+      "S2B_10SGJ_20260806_0_L2A"
+     ],
+     "datetime": "2026-08-06T19:03:32.844000+00:00",
+     "clear_frac": 0.884,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.006556,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260806_S2B_10SGJ_20260806_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:40:37+00:00",
+   "candidates": 100,
+   "tried": 4,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 0.917,
+    "date": "2026-08-11"
+   },
+   "errors": []
+  },
+  {
+   "id": "tonopah-test-range",
+   "name": "Tonopah Test Range Airport",
+   "type": "base",
+   "bbox": [
+    -116.83,
+    37.755,
+    -116.735,
+    37.835
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2C_11SNB_20261024_0_L2A",
+     "tiles": [
+      "S2C_11SNB_20261024_0_L2A"
+     ],
+     "datetime": "2026-10-24",
+     "clear_frac": null,
+     "source": "daily_pickup",
+     "files": [
+      "baseline_s2_20261024_S2C_11SNB_20261024_0_L2A_rgb.png"
+     ],
+     "note": "baseline the daily pickup saved; same frame as the backfill images, no cloud score recorded"
+    },
+    {
+     "id": "S2B_11SNB_20260919_0_L2A",
+     "tiles": [
+      "S2B_11SNB_20260919_0_L2A"
+     ],
+     "datetime": "2026-09-19T18:43:56.827000+00:00",
+     "clear_frac": 0.995,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.018553,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260919_S2B_11SNB_20260919_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_11SNB_20260820_0_L2A",
+     "tiles": [
+      "S2B_11SNB_20260820_0_L2A"
+     ],
+     "datetime": "2026-08-20T18:43:54.121000+00:00",
+     "clear_frac": 0.994,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 6.222086,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260820_S2B_11SNB_20260820_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_11SNB_20260711_0_L2A",
+     "tiles": [
+      "S2B_11SNB_20260711_0_L2A"
+     ],
+     "datetime": "2026-07-11T18:43:57.253000+00:00",
+     "clear_frac": 0.994,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.113374,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260711_S2B_11SNB_20260711_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:39:27+00:00",
+   "candidates": 71,
+   "tried": 2,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 0.243,
+    "date": "2026-07-16"
+   },
+   "errors": []
+  },
+  {
+   "id": "yucca-mountain",
+   "name": "Yucca Mountain (proposed nuclear waste repository)",
+   "type": "infrastructure",
+   "bbox": [
+    -116.49,
+    36.82,
+    -116.4,
+    36.88
+   ],
+   "passes": [],
+   "baseline": null,
+   "baselines": [
+    {
+     "id": "S2B_11SNA_20260919_0_L2A",
+     "tiles": [
+      "S2B_11SNA_20260919_0_L2A"
+     ],
+     "datetime": "2026-09-19T18:44:11.270000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.052545,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260919_S2B_11SNA_20260919_0_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2A_11SNA_20260817_1_L2A",
+     "tiles": [
+      "S2A_11SNA_20260817_1_L2A"
+     ],
+     "datetime": "2026-08-17T18:44:27.588000+00:00",
+     "clear_frac": 0.979,
+     "clear_frac_scl": 0.979,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 7.412878,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260817_S2A_11SNA_20260817_1_L2A_rgb.jpg"
+     ]
+    },
+    {
+     "id": "S2B_11SNA_20260711_0_L2A",
+     "tiles": [
+      "S2B_11SNA_20260711_0_L2A"
+     ],
+     "datetime": "2026-07-11T18:44:11.698000+00:00",
+     "clear_frac": 1.0,
+     "clear_frac_scl": 1.0,
+     "valid_frac": 1.0,
+     "scene_cloud_pct": 0.0599,
+     "cloud_mask": "scl+cloudmask-1",
+     "source": "baseline_backfill",
+     "files": [
+      "baseline_s2_20260711_S2B_11SNA_20260711_0_L2A_rgb.jpg"
+     ]
+    }
+   ],
+   "checked": "2026-11-09T09:39:46+00:00",
+   "candidates": 70,
+   "tried": 2,
+   "best_seen": {
+    "cover": 1.0,
+    "clear_scl": 0.359,
+    "date": "2026-07-16"
+   },
+   "errors": []
+  }
+ ]
+}
