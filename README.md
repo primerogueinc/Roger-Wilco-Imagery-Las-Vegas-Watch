@@ -39,7 +39,7 @@ The places here are bases, ranges and airfields, so each picture shows the facil
 
 ## Daily Watch issues
 
-`issues/<date>/` holds each daily Vegas Watch issue, RWI-W-VEGAS-<date>, from 27 Oct 2026 (12 issues to 8 Nov; none on 2 Nov):
+`issues/<date>/` holds each daily Vegas Watch issue, RWI-W-VEGAS-<date>, from 27 Oct 2026 (none on 2 Nov):
 
 - `WATCH.md`: the issue. It covers military, government and Janet flights near the sites for the day before (UTC), from
   community ADS-B; heat detections (NASA FIRMS); and the newest clear Sentinel-2 pass per place.

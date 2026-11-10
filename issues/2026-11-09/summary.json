@@ -1,0 +1,84 @@
+{
+ "id": "RWI-W-VEGAS-2026-11-09",
+ "watch": "vegas",
+ "title": "Vegas Watch",
+ "date": "2026-11-09",
+ "flight_day": "2026-11-08",
+ "plates": [
+  {
+   "file": "flights.png",
+   "label": "Flights 2026-11-08"
+  }
+ ],
+ "notable": [],
+ "flights": {
+  "us-military": 18,
+  "other": 33,
+  "janet": 1
+ },
+ "heat": {
+  "source": "FIRMS area API (agent Gazda)",
+  "total": 11,
+  "on_sites": 0
+ },
+ "imagery": {
+  "nellis-afb": {
+   "pass": "2026-11-05T18:34:13.623000+00:00",
+   "clear": 0.94,
+   "new": false
+  },
+  "creech-afb": {
+   "pass": "2026-11-08T18:44:08.971000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "groom-lake": {
+   "pass": "2026-11-08T18:43:58.558000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "tonopah-test-range": {
+   "pass": "2026-11-08T18:43:58.558000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "nnss-yucca-flat": {
+   "pass": "2026-11-08T18:43:58.558000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "nnss-mercury": {
+   "pass": "2026-11-08T18:44:13.010000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "yucca-mountain": {
+   "pass": "2026-11-08T18:44:13.010000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "las-vegas-janet": {
+   "pass": null
+  },
+  "hoover-dam-lake-mead": {
+   "pass": "2026-11-05T18:34:28.332000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "nas-fallon": {
+   "pass": "2026-11-06T18:53:28.427000+00:00",
+   "clear": 0.82,
+   "new": false
+  },
+  "hawthorne-army-depot": {
+   "pass": "2026-11-06T18:53:42.665000+00:00",
+   "clear": 1.0,
+   "new": false
+  },
+  "reno-ang": {
+   "pass": "2026-11-04T19:03:34.089000+00:00",
+   "clear": 0.9,
+   "new": false
+  }
+ }
+}
